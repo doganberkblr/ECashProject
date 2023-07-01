@@ -20,4 +20,13 @@
     <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="6.0.19" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.19" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EntityLayer\EntityLayer.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Concrete\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Concrete\" />
+  </ItemGroup>
 </Project>

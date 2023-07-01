@@ -864,6 +864,57 @@
             "rid": "win"
           }
         }
+      },
+      "BusinessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DataAccessLayer": "1.0.0",
+          "EntityLayer": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.19",
+          "Microsoft.EntityFrameworkCore": "6.0.19",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.19",
+          "Microsoft.Extensions.Identity.Core": "6.0.19"
+        },
+        "compile": {
+          "bin/placeholder/BusinessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessLayer.dll": {}
+        }
+      },
+      "DataAccessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EntityLayer": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.19",
+          "Microsoft.EntityFrameworkCore": "6.0.19",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.19",
+          "Microsoft.Extensions.Identity.Core": "6.0.19"
+        },
+        "compile": {
+          "bin/placeholder/DataAccessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccessLayer.dll": {}
+        }
+      },
+      "EntityLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.19",
+          "Microsoft.EntityFrameworkCore": "6.0.19",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.19",
+          "Microsoft.Extensions.Identity.Core": "6.0.19"
+        },
+        "compile": {
+          "bin/placeholder/EntityLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EntityLayer.dll": {}
+        }
       }
     }
   },
@@ -2176,10 +2227,28 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "BusinessLayer/1.0.0": {
+      "type": "project",
+      "path": "../BusinessLayer/BusinessLayer.csproj",
+      "msbuildProject": "../BusinessLayer/BusinessLayer.csproj"
+    },
+    "DataAccessLayer/1.0.0": {
+      "type": "project",
+      "path": "../DataAccessLayer/DataAccessLayer.csproj",
+      "msbuildProject": "../DataAccessLayer/DataAccessLayer.csproj"
+    },
+    "EntityLayer/1.0.0": {
+      "type": "project",
+      "path": "../EntityLayer/EntityLayer.csproj",
+      "msbuildProject": "../EntityLayer/EntityLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "BusinessLayer >= 1.0.0",
+      "DataAccessLayer >= 1.0.0",
+      "EntityLayer >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.19",
       "Microsoft.EntityFrameworkCore >= 6.0.19",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.19",
@@ -2213,7 +2282,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/BusinessLayer/BusinessLayer.csproj": {
+              "projectPath": "/Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/BusinessLayer/BusinessLayer.csproj"
+            },
+            "/Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/DataAccessLayer/DataAccessLayer.csproj": {
+              "projectPath": "/Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/DataAccessLayer/DataAccessLayer.csproj"
+            },
+            "/Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/EntityLayer/EntityLayer.csproj": {
+              "projectPath": "/Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/EntityLayer/EntityLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

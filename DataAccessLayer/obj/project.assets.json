@@ -864,6 +864,22 @@
             "rid": "win"
           }
         }
+      },
+      "EntityLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.19",
+          "Microsoft.EntityFrameworkCore": "6.0.19",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.19",
+          "Microsoft.Extensions.Identity.Core": "6.0.19"
+        },
+        "compile": {
+          "bin/placeholder/EntityLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EntityLayer.dll": {}
+        }
       }
     }
   },
@@ -2176,10 +2192,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "EntityLayer/1.0.0": {
+      "type": "project",
+      "path": "../EntityLayer/EntityLayer.csproj",
+      "msbuildProject": "../EntityLayer/EntityLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "EntityLayer >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.19",
       "Microsoft.EntityFrameworkCore >= 6.0.19",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.19",
@@ -2213,7 +2235,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/EntityLayer/EntityLayer.csproj": {
+              "projectPath": "/Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/EntityLayer/EntityLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

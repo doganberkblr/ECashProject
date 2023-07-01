@@ -1,4 +1,18 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using Microsoft.Extensions.Configuration;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using System;
+using ECashProject.DataAccessLayer.Concrete;
+
+
+void ConfigureServices(IServiceCollection services)
+{
+    services.AddDbContext<Context>(options =>
+        options.UseSqlServer("Server=localhost,1433;Database=ECashDb;User ID=SA;Password=reallyStrongPwd123;")); // YourConnectionString yerine veritabanı bağlantı dizesini girin
+
+    services.AddControllersWithViews();
+}
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
