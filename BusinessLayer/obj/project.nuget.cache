@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "lcHJGV/Q1sCKawI0dCZrqmwaF1htzfTgumrUdIYFTlfV81oZ9uVZ+xdbVDS6g4o97VU3aZUY45d2ltYn3WvTxg==",
+  "dgSpecHash": "zeGJqeHOmDYIVaScLzw+N5Vvk5C+eY5qWlbpwxATwtM0knncaHlIIGhDUad0kkuF6sPNTNa2/tBZg8X3hIJHwA==",
   "success": true,
   "projectFilePath": "/Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/BusinessLayer/BusinessLayer.csproj",
   "expectedPackageFiles": [
+    "/Users/doganberkbulur/.nuget/packages/fluentvalidation/11.6.0/fluentvalidation.11.6.0.nupkg.sha512",
+    "/Users/doganberkbulur/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "/Users/doganberkbulur/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.6.0/fluentvalidation.dependencyinjectionextensions.11.6.0.nupkg.sha512",
     "/Users/doganberkbulur/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/doganberkbulur/.nuget/packages/microsoft.aspnetcore.cryptography.internal/6.0.19/microsoft.aspnetcore.cryptography.internal.6.0.19.nupkg.sha512",
     "/Users/doganberkbulur/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/6.0.19/microsoft.aspnetcore.cryptography.keyderivation.6.0.19.nupkg.sha512",

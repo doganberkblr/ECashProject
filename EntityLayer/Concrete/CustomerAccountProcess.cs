@@ -7,7 +7,7 @@ namespace EntityLayer.Concrete
 		public string ProcessType { get; set; }
 		public decimal Amount { get; set; }
 		public DateTime ProcessDate { get; set; }
-	
+		
 	}
 }
 

@@ -25,8 +25,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Concrete\" />
+    <None Remove="Abstract\" />
+    <None Remove="Repositories\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Concrete\" />
+    <Folder Include="Abstract\" />
+    <Folder Include="Repositories\" />
   </ItemGroup>
 </Project>
