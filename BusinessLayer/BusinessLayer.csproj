@@ -34,6 +34,8 @@
     <None Remove="ValidationRules\AppRoleValidationRules\" />
     <None Remove="ValidationRules\CustomerAccountProcessValidationRules\" />
     <None Remove="ValidationRules\CustomerAccountValidationRules\" />
+    <None Remove="Abstract\" />
+    <None Remove="Concrete\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ValidationRules\" />
@@ -41,5 +43,7 @@
     <Folder Include="ValidationRules\AppRoleValidationRules\" />
     <Folder Include="ValidationRules\CustomerAccountProcessValidationRules\" />
     <Folder Include="ValidationRules\CustomerAccountValidationRules\" />
+    <Folder Include="Abstract\" />
+    <Folder Include="Concrete\" />
   </ItemGroup>
 </Project>
