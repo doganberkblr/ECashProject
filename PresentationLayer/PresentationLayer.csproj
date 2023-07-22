@@ -114,5 +114,9 @@
     <Folder Include="wwwroot\gentala-gh-pages\src\js\" />
     <Folder Include="wwwroot\gentala-gh-pages\src\scss\" />
     <Folder Include="wwwroot\gentala-gh-pages\src\js\helpers\" />
+    <Folder Include="Views\Register\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Views\Register\" />
   </ItemGroup>
 </Project>
