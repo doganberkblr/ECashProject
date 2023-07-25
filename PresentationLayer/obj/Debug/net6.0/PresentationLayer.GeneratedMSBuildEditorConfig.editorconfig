@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/PresentationLayer
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/PresentationLayer/Views/ConfirmMail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29uZmlybU1haWwvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/PresentationLayer/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

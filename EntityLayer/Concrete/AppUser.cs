@@ -10,6 +10,7 @@ namespace EntityLayer.Concrete
 		public string District { get; set; }
 		public string City { get; set; }
 		public string ImageURL { get; set; }
+		public int ConfirmCode { get; set; }
 		public List<CustomerAccount> CustomerAccounts { get; set; }
 	}
 }

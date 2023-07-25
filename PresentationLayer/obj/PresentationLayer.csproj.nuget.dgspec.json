@@ -438,6 +438,10 @@
             "Microsoft.Extensions.Identity.Core": {
               "target": "Package",
               "version": "[6.0.19, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.1.0, )"
             }
           },
           "imports": [

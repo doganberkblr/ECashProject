@@ -19,6 +19,7 @@
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="6.0.19" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.19" />
+    <PackageReference Include="NETCore.MailKit" Version="2.1.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
@@ -115,8 +116,10 @@
     <Folder Include="wwwroot\gentala-gh-pages\src\scss\" />
     <Folder Include="wwwroot\gentala-gh-pages\src\js\helpers\" />
     <Folder Include="Views\Register\" />
+    <Folder Include="Views\ConfirmMail\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Views\Register\" />
+    <None Remove="Views\ConfirmMail\" />
   </ItemGroup>
 </Project>
