@@ -118,10 +118,12 @@
     <Folder Include="Views\Register\" />
     <Folder Include="Views\ConfirmMail\" />
     <Folder Include="Views\MyProfile\" />
+    <Folder Include="Views\Login\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Views\Register\" />
     <None Remove="Views\ConfirmMail\" />
     <None Remove="Views\MyProfile\" />
+    <None Remove="Views\Login\" />
   </ItemGroup>
 </Project>
