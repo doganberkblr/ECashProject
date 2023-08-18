@@ -45,6 +45,14 @@ namespace PresentationLayer.Models
                 Description = "Parola da en az 1 sembol olmalı."
             };
         }
+        public IdentityError PasswordsDoNotMatch()
+        {
+            return new IdentityError()
+            {
+                Code = "PasswordsDoNotMatch",
+                Description = "Girilen parolalar eşleşmiyor."
+            };
+        }
     }
 }
 
