@@ -124,6 +124,7 @@
     <Folder Include="Views\Shared\Components\" />
     <Folder Include="Views\Shared\Components\_CustomerLayoutHeaderPartial\" />
     <Folder Include="Views\Shared\Components\_CustomerLayoutSidebarPartial\" />
+    <Folder Include="Views\Shared\Components\_CustomerLayoutNavbarPartial\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Views\Register\" />
@@ -135,5 +136,6 @@
     <None Remove="Views\Shared\Components\" />
     <None Remove="Views\Shared\Components\_CustomerLayoutHeaderPartial\" />
     <None Remove="Views\Shared\Components\_CustomerLayoutSidebarPartial\" />
+    <None Remove="Views\Shared\Components\_CustomerLayoutNavbarPartial\" />
   </ItemGroup>
 </Project>
