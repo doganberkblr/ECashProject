@@ -40,8 +40,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVnaXN0ZXIvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/PresentationLayer/Views/Shared/Components/_CustomerLayoutFooterPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0N1c3RvbWVyTGF5b3V0Rm9vdGVyUGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/PresentationLayer/Views/Shared/Components/_CustomerLayoutHeaderPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0N1c3RvbWVyTGF5b3V0SGVhZGVyUGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/PresentationLayer/Views/Shared/Components/_CustomerLayoutNavbarPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0N1c3RvbWVyTGF5b3V0TmF2YmFyUGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/PresentationLayer/Views/Shared/Components/_CustomerLayoutScriptPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0N1c3RvbWVyTGF5b3V0U2NyaXB0UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/PresentationLayer/Views/Shared/Components/_CustomerLayoutSidebarPartial/Default.cshtml]
