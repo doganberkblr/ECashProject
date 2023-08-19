@@ -119,11 +119,21 @@
     <Folder Include="Views\ConfirmMail\" />
     <Folder Include="Views\MyProfile\" />
     <Folder Include="Views\Login\" />
+    <Folder Include="ViewComponents\" />
+    <Folder Include="ViewComponents\Customer\" />
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\_CustomerLayoutHeaderPartial\" />
+    <Folder Include="Views\Shared\Components\_CustomerLayoutSidebarPartial\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Views\Register\" />
     <None Remove="Views\ConfirmMail\" />
     <None Remove="Views\MyProfile\" />
     <None Remove="Views\Login\" />
+    <None Remove="ViewComponents\" />
+    <None Remove="ViewComponents\Customer\" />
+    <None Remove="Views\Shared\Components\" />
+    <None Remove="Views\Shared\Components\_CustomerLayoutHeaderPartial\" />
+    <None Remove="Views\Shared\Components\_CustomerLayoutSidebarPartial\" />
   </ItemGroup>
 </Project>
