@@ -31,6 +31,9 @@
     <ProjectReference Include="..\EntityLayer\EntityLayer.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+    <ProjectReference Include="..\DTOLayer\DTOLayer.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\web\" />
@@ -117,7 +120,6 @@
     <Folder Include="wwwroot\gentala-gh-pages\src\js\helpers\" />
     <Folder Include="Views\Register\" />
     <Folder Include="Views\ConfirmMail\" />
-    <Folder Include="Views\MyProfile\" />
     <Folder Include="Views\Login\" />
     <Folder Include="ViewComponents\" />
     <Folder Include="ViewComponents\Customer\" />
@@ -128,11 +130,11 @@
     <Folder Include="Views\Shared\Components\_CustomerLayoutFooterPartial\" />
     <Folder Include="Views\Shared\Components\_CustomerLayoutScriptPartial\" />
     <Folder Include="Views\MyAccounts\" />
+    <Folder Include="Views\CustomerLayout\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Views\Register\" />
     <None Remove="Views\ConfirmMail\" />
-    <None Remove="Views\MyProfile\" />
     <None Remove="Views\Login\" />
     <None Remove="ViewComponents\" />
     <None Remove="ViewComponents\Customer\" />
@@ -143,5 +145,6 @@
     <None Remove="Views\Shared\Components\_CustomerLayoutFooterPartial\" />
     <None Remove="Views\Shared\Components\_CustomerLayoutScriptPartial\" />
     <None Remove="Views\MyAccounts\" />
+    <None Remove="Views\CustomerLayout\" />
   </ItemGroup>
 </Project>

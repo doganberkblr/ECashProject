@@ -2640,6 +2640,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "BusinessLayer >= 1.0.0",
+      "DTOLayer >= 1.0.0",
       "DataAccessLayer >= 1.0.0",
       "EntityLayer >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.19",
@@ -2683,6 +2684,9 @@
             },
             "/Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/DataAccessLayer/DataAccessLayer.csproj": {
               "projectPath": "/Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/DataAccessLayer/DataAccessLayer.csproj"
+            },
+            "/Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/DTOLayer/DTOLayer.csproj": {
+              "projectPath": "/Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/DTOLayer/DTOLayer.csproj"
             },
             "/Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/EntityLayer/EntityLayer.csproj": {
               "projectPath": "/Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/EntityLayer/EntityLayer.csproj"
