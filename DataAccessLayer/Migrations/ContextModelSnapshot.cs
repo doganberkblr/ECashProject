@@ -170,7 +170,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasIndex("AppUserID");
 
-                    b.ToTable("CustomerAccounts");
+                    b.ToTable("CustomerAccounts", (string)null);
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.CustomerAccountProcess", b =>
@@ -193,7 +193,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("CustomerAccountProcessID");
 
-                    b.ToTable("CustomerAccountProcesses");
+                    b.ToTable("CustomerAccountProcesses", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
