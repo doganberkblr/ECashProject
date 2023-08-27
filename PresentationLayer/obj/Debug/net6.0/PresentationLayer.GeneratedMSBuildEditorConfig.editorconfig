@@ -24,6 +24,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJMYXlvdXQvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/PresentationLayer/Views/Exchange/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhjaGFuZ2UvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/PresentationLayer/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/PresentationLayer/Views/MyAccounts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTXlBY2NvdW50cy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/PresentationLayer/Views/MyLastProcess/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTXlMYXN0UHJvY2Vzcy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/PresentationLayer/Views/Register/Index.cshtml]

@@ -132,6 +132,8 @@
     <Folder Include="Views\MyAccounts\" />
     <Folder Include="Views\CustomerLayout\" />
     <Folder Include="Views\SendMoney\" />
+    <Folder Include="Views\Exchange\" />
+    <Folder Include="Views\MyLastProcess\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Views\Register\" />
@@ -148,5 +150,7 @@
     <None Remove="Views\MyAccounts\" />
     <None Remove="Views\CustomerLayout\" />
     <None Remove="Views\SendMoney\" />
+    <None Remove="Views\Exchange\" />
+    <None Remove="Views\MyLastProcess\" />
   </ItemGroup>
 </Project>
