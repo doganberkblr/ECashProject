@@ -28,13 +28,13 @@
                     <li>
                         <a><i class="fa fa-home"></i> Ana Sayfa <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="index.html">Dashboard</a></li>     
+                            <li><a href="index.html">Dashboard</a></li>
                         </ul>
                     </li>
                     <li>
                         <a><i class="fa fa-edit"></i> Hesap İşlemleri <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="@Url.Action("Index","SendMoney")">Para Transferi</a></li>
+                            <li><a href="#">Para Transferi</a></li>
                             <li><a href="form_advanced.html">Son İşlemler</a></li>
                             <li><a href="form_validation.html">QR İle Para Gönder</a></li>
                             <li><a href="form_wizards.html">Iban Bilgisi Paylaş</a></li>
@@ -53,6 +53,15 @@
                             <li><a href="widgets.html">Kredi Hesaplarım</a></li>
                             <li><a href="invoice.html">Dolar Hesaplarım</a></li>
                             <li><a href="inbox.html">Euro Hesaplarım</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a><i class="fa fa-money"></i> Para Transferleri <span class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu">
+                            <li><a asp-controller="SendMoney" asp-action="Index" asp-route-mycurrency="TL">Türk Lirası Transfer</a></li>
+                            <li><a asp-controller="SendMoney" asp-action="Index" asp-route-mycurrency="USD">Dolar Transfer</a></li>
+                            <li><a asp-controller="SendMoney" asp-action="Index" asp-route-mycurrency="EUR">Euro Transfer</a></li>
+                            <li><a asp-controller="SendMoney" asp-action="Index" asp-route-mycurrency="Other">Diğer Transferler</a></li>
                         </ul>
                     </li>
                     <li>

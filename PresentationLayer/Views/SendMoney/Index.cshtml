@@ -27,6 +27,7 @@
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="x_panel">
                     <div class="x_title">
+
                         <ul class="nav navbar-right panel_toolbox">
                             <li>
                                 <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
@@ -56,10 +57,12 @@
                                 Transfer yapılacak hesap bilgilerini giriniz.
                             </p>
                             <span class="section">Hesap Bilgileri</span>
-
+                            <br />
+                            <span class="section">Transfer Yapılacak Para Cinsi : @ViewBag.currency</span>
+                            <br />
                             <div class="item form-group">
                                 <label class="control-label col-md-3 col-sm-3 col-xs-12" for="name">
-                                    Hesap Numarası <span class="required">*</span>
+                                    Gönderilecek Hesap Numarası <span class="required">*</span>
                                 </label>
                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                     <input id="name" class="form-control col-md-7 col-xs-12" asp-for="ReceiverAccountNumber" required="required" type="text">
@@ -67,10 +70,18 @@
                             </div>
                             <div class="item form-group">
                                 <label class="control-label col-md-3 col-sm-3 col-xs-12" for="email">
-                                    Miktar <span class="required">*</span>
+                                    Gönderilecek Miktar <span class="required">*</span>
                                 </label>
                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                     <input type="text" id="email" asp-for="Amount" required="required" class="form-control col-md-7 col-xs-12">
+                                </div>
+                            </div>
+                            <div class="item form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="email">
+                                    Açıklama <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <textarea rows="5" asp-for="Description" class="form-control col-md-7 col-xs-12"></textarea>
                                 </div>
                             </div>
                             <div class="ln_solid"></div>
