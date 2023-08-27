@@ -5,6 +5,10 @@ using System;
 using ECashProject.DataAccessLayer.Concrete;
 using EntityLayer.Concrete;
 using PresentationLayer.Models;
+using DataAccessLayer.Abstract;
+using DataAccessLayer.EntityFramework;
+using BusinessLayer.Abstract;
+using BusinessLayer.Concrete;
 
 void ConfigureServices(IServiceCollection services)
 {
@@ -19,7 +23,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<Context>();
 builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>().AddErrorDescriber<CustomIdentityValidator>();
-
+builder.Services.AddScoped<ICustomerAccountProcessDAL, EfCustomerAccountProcessDAL>();
+builder.Services.AddScoped<ICustomerAccountProcessService, CustomerAccountProcessManager>();
 
 var app = builder.Build();
 

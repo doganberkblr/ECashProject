@@ -131,6 +131,7 @@
     <Folder Include="Views\Shared\Components\_CustomerLayoutScriptPartial\" />
     <Folder Include="Views\MyAccounts\" />
     <Folder Include="Views\CustomerLayout\" />
+    <Folder Include="Views\SendMoney\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Views\Register\" />
@@ -146,5 +147,6 @@
     <None Remove="Views\Shared\Components\_CustomerLayoutScriptPartial\" />
     <None Remove="Views\MyAccounts\" />
     <None Remove="Views\CustomerLayout\" />
+    <None Remove="Views\SendMoney\" />
   </ItemGroup>
 </Project>
