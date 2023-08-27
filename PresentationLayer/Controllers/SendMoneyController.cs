@@ -18,14 +18,12 @@ namespace PresentationLayer.Controllers
         private readonly UserManager<AppUser> _userManager;
         private readonly ICustomerAccountProcessService _customerAccountProcessService;
 
-        public SendMoneyController(ICustomerAccountProcessService customerAccountProcessService)
-        {
-            _customerAccountProcessService = customerAccountProcessService;
-        }
+     
 
-        public SendMoneyController(UserManager<AppUser> userManager)
+        public SendMoneyController(UserManager<AppUser> userManager, ICustomerAccountProcessService customerAccountProcessService)
         {
             _userManager = userManager;
+            _customerAccountProcessService = customerAccountProcessService;
         }
 
         [HttpGet]
@@ -39,11 +37,19 @@ namespace PresentationLayer.Controllers
             var context = new Context();
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
             var receiverAccountNumberID = context.CustomerAccounts.Where(x => x.CustomerAccountNumber == sendMoneyForCustomerAccountProcessDTO.ReceiverAccountNumber).Select(y => y.CustomerAccountID).FirstOrDefault();
+
             sendMoneyForCustomerAccountProcessDTO.SenderID = user.Id;
             sendMoneyForCustomerAccountProcessDTO.ProcessDate = Convert.ToDateTime(DateTime.Now.ToShortDateString());
             sendMoneyForCustomerAccountProcessDTO.ProcessType = "Havale";
             sendMoneyForCustomerAccountProcessDTO.ReceiverID = receiverAccountNumberID;
-            //_customerAccountProcessService.TInsert();
+
+            var values = new CustomerAccountProcess();
+            values.ProcessDate= Convert.ToDateTime(DateTime.Now.ToShortDateString());
+            values.SenderID = 5;
+            values.ProcessType = "Havale";
+            values.ReceiverID = receiverAccountNumberID;
+            values.Amount = sendMoneyForCustomerAccountProcessDTO.Amount;
+            _customerAccountProcessService.TInsert(values);
             return RedirectToAction("Index","Deneme");
         }
     }
