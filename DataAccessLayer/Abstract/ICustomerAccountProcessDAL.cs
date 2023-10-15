@@ -5,6 +5,7 @@ namespace DataAccessLayer.Abstract
 {
 	public interface ICustomerAccountProcessDAL:IGenericDAL<CustomerAccountProcess>
 	{
+		List<CustomerAccountProcess> MyLastProcess(int id);
 	}
 }
 

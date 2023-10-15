@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SsDPAkvRq5rf571+H8lV0trVeAyo3iGMU5CqTSq1TIkvct636e6XIUrysI0/+5Lc+Cm0HPCFrrjTraGdGYqpjA==",
+  "dgSpecHash": "GQx+IiV9saWLBTxT6ZtJRUlUyJUwY+rSlpLMka5HgZusTTeGYh4uEauPVlJ8Kh/gctTCuTNoqrV5PjNiuACdJA==",
   "success": true,
   "projectFilePath": "/Users/doganberkbulur/Documents/GitHub/ECashProject/ECashProject/PresentationLayer/PresentationLayer.csproj",
   "expectedPackageFiles": [
@@ -44,6 +44,7 @@
     "/Users/doganberkbulur/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "/Users/doganberkbulur/.nuget/packages/mimekit/3.2.0/mimekit.3.2.0.nupkg.sha512",
     "/Users/doganberkbulur/.nuget/packages/netcore.mailkit/2.1.0/netcore.mailkit.2.1.0.nupkg.sha512",
+    "/Users/doganberkbulur/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/doganberkbulur/.nuget/packages/portable.bouncycastle/1.9.0/portable.bouncycastle.1.9.0.nupkg.sha512",
     "/Users/doganberkbulur/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/Users/doganberkbulur/.nuget/packages/system.configuration.configurationmanager/4.7.0/system.configuration.configurationmanager.4.7.0.nupkg.sha512",

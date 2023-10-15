@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-
+using System.Net.Http.Headers;
+using Newtonsoft.Json;
+using PresentationLayer.Models;
 
 namespace PresentationLayer.Controllers
 {
@@ -92,6 +94,8 @@ namespace PresentationLayer.Controllers
                 ViewBag.USDtoEUR = Decimal.Parse(body4.Replace(".", ",")).ToString("0.000");
             }
             #endregion
+
+       
 
             return View();
         }

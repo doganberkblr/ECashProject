@@ -32,6 +32,11 @@ namespace BusinessLayer.Concrete
             _customerAccountProcessDAL.Insert(t);
         }
 
+        public List<CustomerAccountProcess> TMyLastProcess(int id)
+        {
+            return _customerAccountProcessDAL.MyLastProcess(id);
+        }
+
         public void TUpdate(CustomerAccountProcess t)
         {
             _customerAccountProcessDAL.Update(t);
