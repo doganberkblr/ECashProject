@@ -5,6 +5,7 @@ namespace DataAccessLayer.Abstract
 {
 	public interface ICustomerAccountDAL:IGenericDAL<CustomerAccount>
 	{
+		List<CustomerAccount> GetCustomerAccountsList(int id);
 	}
 }
 

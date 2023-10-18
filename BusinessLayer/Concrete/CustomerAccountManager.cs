@@ -24,6 +24,11 @@ namespace BusinessLayer.Concrete
             return _customerAccountDAL.GetByID(id);
         }
 
+        public List<CustomerAccount> TGetCustomerAccountsList(int id)
+        {
+            return _customerAccountDAL.GetCustomerAccountsList(id);
+        }
+
         public List<CustomerAccount> TGetList()
         {
             return _customerAccountDAL.GetList();

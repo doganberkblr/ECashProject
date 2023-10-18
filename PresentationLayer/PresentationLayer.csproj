@@ -135,6 +135,7 @@
     <Folder Include="Views\SendMoney\" />
     <Folder Include="Views\Exchange\" />
     <Folder Include="Views\MyLastProcess\" />
+    <Folder Include="Views\AccountListForCopy\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Views\Register\" />
@@ -153,5 +154,6 @@
     <None Remove="Views\SendMoney\" />
     <None Remove="Views\Exchange\" />
     <None Remove="Views\MyLastProcess\" />
+    <None Remove="Views\AccountListForCopy\" />
   </ItemGroup>
 </Project>
